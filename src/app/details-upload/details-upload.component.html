@@ -1,0 +1,11 @@
+<!-- <a href="{{fileUpload.url}}">{{fileUpload.name}}</a> -->
+
+<div class="wrapper">
+    <!-- <header class="header">Youtube</header>
+    <aside class="sidebar">Sidebar</aside> -->
+    <article class="content" (click)="goTourl(fileUpload.url)">
+        <div class="panel"> <img class="panel-img" [src]="netImage"> <span class="panel-title">{{fileUpload.name}}</span> 
+             </div>
+             <!-- <iframe width="100%" height="300" [src]="http://s3.amazonaws.com/cdnvideosample1/{{fileUpload}}"></iframe> -->
+    </article>
+</div>
